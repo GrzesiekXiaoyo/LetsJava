@@ -1,7 +1,7 @@
 package com.company.Polimorfizm;
 
 public class PolimorfizmTester {
-    public static void TestPolimorfizm()
+    public static void Test()
     {
         Cat cat = new Cat();
         Dog dog = new Dog();
