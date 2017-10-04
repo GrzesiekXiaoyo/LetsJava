@@ -26,4 +26,9 @@ public class EasyClass {
         System.out.println("Private constructor run");
     }
 
+ /*   public EasyClass(float value, String name="test") { // blad kompilacji w javie nie ma defaultow
+        Name = name;
+        System.out.println("EasyClass(String name)");
+    }*/
+
 }
