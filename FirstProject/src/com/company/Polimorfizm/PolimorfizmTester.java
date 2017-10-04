@@ -1,8 +1,7 @@
 package com.company.Polimorfizm;
 
 public class PolimorfizmTester {
-    public static void Test()
-    {
+    public static void Test() {
         Cat cat = new Cat();
         Dog dog = new Dog();
 
@@ -10,8 +9,7 @@ public class PolimorfizmTester {
         CallGiveVoice(dog);
     }
 
-    private static void CallGiveVoice(IAnimal animal)
-    {
+    private static void CallGiveVoice(IAnimal animal) {
         animal.GiveVoice();
     }
 }

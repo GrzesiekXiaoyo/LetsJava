@@ -10,8 +10,7 @@ public class Person {
     }
 
     public void setName(String name) throws Exception {
-        if(name==null||name.length()<4)
-        {
+        if (name == null || name.length() < 4) {
             throw new Exception();
         }
 
