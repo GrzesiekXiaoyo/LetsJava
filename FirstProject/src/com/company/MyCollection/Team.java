@@ -78,6 +78,13 @@ public class Team {
             System.out.println(tablicaStringow[t2]);
             t2--;
         }
+
+        System.out.println("7. Iterator");
+        Iterator<String> iterator = listOfPlayer.iterator();
+        while(iterator.hasNext())
+        {
+            System.out.println(iterator.next());
+        }
     }
 
 
