@@ -1,6 +1,6 @@
 package com.company.Polimorfizm;
 
-public class Dog implements IAnimal {
+public class Dog implements IAnimal,IGoForward {
 
     @Override
     public void GiveVoice() {

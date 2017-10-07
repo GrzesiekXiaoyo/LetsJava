@@ -11,14 +11,16 @@ public class Cat extends AnimalBase {
         System.out.println("Miau Miau");
     }
 
-    @Override
-    protected void Run() {
-        System.out.println("I am running as cat");
-    }
+
 
     public Cat() {
         //uruchomi sie constructor z AnimalBase();
         System.out.println("I am cat");
+    }
+
+    @Override
+    protected void Run() {
+        System.out.println("I am running as cat");
     }
 
 }

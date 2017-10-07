@@ -16,5 +16,5 @@ public abstract class AnimalBase implements IAnimal {
         System.out.println("constructor AnimalBase() run");
     }
 
-    protected abstract void Run();
+     protected abstract void Run();
 }

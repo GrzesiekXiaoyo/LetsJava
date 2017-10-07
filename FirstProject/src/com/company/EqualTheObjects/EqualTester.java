@@ -24,12 +24,12 @@ public class EqualTester {
         System.out.println("***equalatorPerson.EqualPerson()***");
         equalatorPerson.EqualPerson(first,otherThenFirst); //Person are not the same
         equalatorPerson.EqualPerson(first,otherThenFirst2); //Person are not the same
-        equalatorPerson.EqualPerson(first,likeFirst); // Person are not the same
+        equalatorPerson.EqualPerson(first,likeFirst); // Person are the same
 
         System.out.println("***equalatorPerson.EqualPersonPropByProp()***");
         equalatorPerson.EqualPersonPropByProp(first,otherThenFirst); //Person are not the same
         equalatorPerson.EqualPersonPropByProp(first,otherThenFirst2); //Person are not the same
-        equalatorPerson.EqualPersonPropByProp(first,likeFirst); // Person are not the same
+        equalatorPerson.EqualPersonPropByProp(first,likeFirst); // Person not the same
 
         System.out.println("***first.compareTo(others)***");
         System.out.println(first.compareTo(otherThenFirst)); //1

@@ -25,6 +25,10 @@ public class EnkapsulacjaTester {
         }
         p = new Person();
 
+        //p.setName("aa");
+
+
+
         //4. Nieprawidlowy Set
         try {
             p.setName("aa");
