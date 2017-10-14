@@ -1,13 +1,8 @@
 package com.company;
 
 //import com.company.Exceptions.Car;
-import com.company.Patterns.Bridge.BridgeTester;
-import com.company.Patterns.Composite.CompositeTest;
-import com.company.Patterns.Prototype.PrototypeTest;
-import com.company.Patterns.Proxy.ProxyTester;
-import com.company.Polimorfizm.PolimorfizmTester;
-import com.company.Threads.ThreadPool.ThreadPoolTester;
-import com.company.Threads.ThreadTester;
+import com.company.Spring.SpringTester;
+import com.company.SpringWIthoutXML.SpringNoXmlTester;
 
 public class Main {
 
@@ -30,7 +25,9 @@ public class Main {
         //PrototypeTest.Test();
 	   // CompositeTest.Test();
 	   // BridgeTester.Test();
-	    ProxyTester.Test();
+	    //ProxyTester.Test();
+	    SpringTester.Test();
+	    SpringNoXmlTester.Test();
     }
 
 
